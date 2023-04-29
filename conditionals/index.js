@@ -10,4 +10,9 @@ function twoCalculations(a, b) {
 console.log(twoCalculations(6, 4));
 
 //Write a JavaScript program that checks whether an integer is an even or an odd number.
-function checkOddNumber(num) {}
+const number = 10;
+if (number % 2 == 0) {
+  console.log("The number is even.");
+} else {
+  console.log("The number is odd.");
+}
